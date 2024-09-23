@@ -16,11 +16,11 @@ Seu objetivo é trabalhar em um projeto já iniciado, corrigindo detalhes de **C
 ### 🎨 CSS
 
 - [ ] Ajustar o layout da página:
-    - [ ] Fixar a sidebar na lateral esquerda da página 📏.
-    - [ ] Definir a largura da sidebar em 220px 📏.
+    - [x] Fixar a sidebar na lateral esquerda da página 📏.
+    - [x] Definir a largura da sidebar em 220px 📏.
     - [ ] Ocultar a sidebar em telas menores 📱 _(abaixo de 1023px)_.
-    - [ ] O conteúdo principal deve ocupar o espaço restante da largura da página 📏.
-    - [ ] Realizar ajustes necessários no layout para otimizar a experiência do usuário 🎨.
+    - [x] O conteúdo principal deve ocupar o espaço restante da largura da página 📏.
+    - [x] Realizar ajustes necessários no layout para otimizar a experiência do usuário 🎨.
 - [ ] Ajustar a listagem de cards de ofertas:
     - [ ] Espaçamento de 16px entre os cards 📏.
     - [ ] Exibir 1 card por linha em telas pequenas 📱 _(até 639px)_.
@@ -31,23 +31,23 @@ Seu objetivo é trabalhar em um projeto já iniciado, corrigindo detalhes de **C
 
 ### 🛠️ JavaScript
 
-- [ ] Realizar uma requisição para a API de ofertas e exibir os cards 📦  
+- [x] Realizar uma requisição para a API de ofertas e exibir os cards 📦  
   _(`GET http://localhost:3000/offers`)_
 - [ ] Exibir corretamente os detalhes do card:
-    - [ ] Tipo `presencial` como `Presencial` 🏫.
-    - [ ] Tipo `ead` como `EaD` 🏠.
-    - [ ] Nível `bacharelado` como `Graduação (bacharelado)` 🎓.
-    - [ ] Nível `tecnologo` como `Graduação (tecnólogo)` 🎓.
-    - [ ] Nível `licenciatura` como `Graduação (licenciatura)` 🎓.
+    - [x] Tipo `presencial` como `Presencial` 🏫.
+    - [x] Tipo `ead` como `EaD` 🏠.
+    - [x] Nível `bacharelado` como `Graduação (bacharelado)` 🎓.
+    - [x] Nível `tecnologo` como `Graduação (tecnólogo)` 🎓.
+    - [x] Nível `licenciatura` como `Graduação (licenciatura)` 🎓.
     - [ ] Exibir estrelas conforme a propriedade `rating` 🌟.
     - [ ] Exibir meia estrela para valores fracionados de `rating` _(Ex: `4.9`)_.
-    - [ ] Formatar os valores de `fullPrice` e `offeredPrice` como moeda 💰 _(Ex: `R$ 550,00`)_.
-    - [ ] Calcular e exibir a porcentagem de desconto 📉.
-    - [ ] Exibir a porcentagem de desconto no formato `27%` 📉.
-- [ ] Implementar a busca de ofertas por nome:
-    - [ ] A busca deve ser realizada nos dados em memória, sem nova requisição 🔄.
-    - [ ] Busca **case-insensitive** 🔄.
-    - [ ] A busca só ocorre ao pressionar o botão de busca 🔍.
+    - [x] Formatar os valores de `fullPrice` e `offeredPrice` como moeda 💰 _(Ex: `R$ 550,00`)_.
+    - [x] Calcular e exibir a porcentagem de desconto 📉.
+    - [x] Exibir a porcentagem de desconto no formato `27%` 📉.
+- [x] Implementar a busca de ofertas por nome:
+    - [x] A busca deve ser realizada nos dados em memória, sem nova requisição 🔄.
+    - [x] Busca **case-insensitive** 🔄.
+    - [x] A busca só ocorre ao pressionar o botão de busca 🔍.
 - [ ] Implementar a ordenação de ofertas:
     - [ ] Ordenação pelo nome do curso 📝.
     - [ ] Ordenação por `offeredPrice` 📉.

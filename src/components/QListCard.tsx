@@ -15,11 +15,11 @@ const QListCard = <T extends Card>({
   ...rest
 }: QListCardProps<T>) => {
   return (
-    <ul
+    <ul className="flex flex-wrap"
       {...rest}
     >
       {cards.map((card) => (
-        <li key={card.id}>{children(card)}</li>
+        <li key={card.id} className="p-4">{children(card)}</li>
       ))}
     </ul>
   );

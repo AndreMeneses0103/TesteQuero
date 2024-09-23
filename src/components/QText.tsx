@@ -7,6 +7,7 @@ interface QTextProps extends HTMLAttributes<HTMLElement> {
   size?: "xs" | "sm" | "md" | "lg";
   tag: ElementType;
   weight?: "light" | "normal" | "medium" | "semibold";
+  width?: string
 }
 
 const QText: FC<QTextProps> = ({
@@ -15,6 +16,7 @@ const QText: FC<QTextProps> = ({
   size = "md",
   tag: TagName,
   weight = "normal",
+  width,
   ...rest
 }) => {
   return (
@@ -37,6 +39,7 @@ const QText: FC<QTextProps> = ({
           minor: "text-zinc-400",
         }[color],
       ])}
+      style={{ width }}
       {...rest}
     >
       {children}
