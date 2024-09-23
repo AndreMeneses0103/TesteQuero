@@ -21,7 +21,7 @@ Seu objetivo é trabalhar em um projeto já iniciado, corrigindo detalhes de **C
     - [ ] Ocultar a sidebar em telas menores 📱 _(abaixo de 1023px)_.
     - [x] O conteúdo principal deve ocupar o espaço restante da largura da página 📏.
     - [x] Realizar ajustes necessários no layout para otimizar a experiência do usuário 🎨.
-- [ ] Ajustar a listagem de cards de ofertas:
+- [x] Ajustar a listagem de cards de ofertas:
     - [ ] Espaçamento de 16px entre os cards 📏.
     - [ ] Exibir 1 card por linha em telas pequenas 📱 _(até 639px)_.
     - [ ] Exibir 2 cards por linha em telas médias 📱 _(640px ~ 767px)_.
@@ -48,10 +48,10 @@ Seu objetivo é trabalhar em um projeto já iniciado, corrigindo detalhes de **C
     - [x] A busca deve ser realizada nos dados em memória, sem nova requisição 🔄.
     - [x] Busca **case-insensitive** 🔄.
     - [x] A busca só ocorre ao pressionar o botão de busca 🔍.
-- [ ] Implementar a ordenação de ofertas:
-    - [ ] Ordenação pelo nome do curso 📝.
-    - [ ] Ordenação por `offeredPrice` 📉.
-    - [ ] Ordenação por `rating` 🌟.
+- [x] Implementar a ordenação de ofertas:
+    - [x] Ordenação pelo nome do curso 📝.
+    - [x] Ordenação por `offeredPrice` 📉.
+    - [x] Ordenação por `rating` 🌟.
 - [ ] Implementar filtros de ofertas:
     - [ ] Filtro realizado nos dados em memória 🔄.
     - [ ] Filtrar por `level` 🎓.

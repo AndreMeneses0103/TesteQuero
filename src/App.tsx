@@ -22,18 +22,18 @@ const App: React.FC = () => {
     const filtered = offers.filter((card) =>
       card.courseName.toLowerCase().includes(filterText.toLowerCase())
     );
-  
+
     const sortedFilteredOffers = filtered.sort((a, b) => {
       if (orderBy === "course-name") {
         return a.courseName.localeCompare(b.courseName);
       } else if (orderBy === "price") {
         return a.offeredPrice - b.offeredPrice;
       } else if (orderBy === "rating") {
-        return b.rating - a.rating;
+        return b.rating - a.rating; // Ordenar do maior para o menor
       }
       return 0;
     });
-  
+
     setFilteredOffers(sortedFilteredOffers);
   };
   
@@ -111,7 +111,7 @@ const App: React.FC = () => {
     >
       <QSectionForm
         title="Veja as opções que encontramos"
-        orderBy={<QFormOrderByOffer onSelect={handleFilter}/>}
+        orderBy={<QFormOrderByOffer onSelect={setOrderBy}/>}
         filter={<QFormFilterOffer />}
       />
 
